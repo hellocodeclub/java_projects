@@ -1,4 +1,4 @@
-package com.mrb.test.tictactoe;
+package com.hellocodeclub.tictactoe;
 
 import java.util.Scanner;
 
