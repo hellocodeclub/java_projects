@@ -97,7 +97,7 @@
                                 </VBox>
                                 <ImageView fx:id="cashImageView" fitHeight="167.0" fitWidth="401.0" pickOnBounds="true" preserveRatio="true">
                                     <image>
-                                        <Image url="@../../../../resources/atm-empty.png" />
+                                        <Image  />
                                     </image>
                                 </ImageView>
                             </children>
