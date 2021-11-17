@@ -17,8 +17,7 @@
 <?import javafx.scene.text.Font?>
 
 <VBox prefHeight="400.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/11"
-      xmlns:fx="http://javafx.com/fxml/1"
-        fx:controller="com.hellocode.atm.AppController">
+      xmlns:fx="http://javafx.com/fxml/1">
     <children>
         <MenuBar VBox.vgrow="NEVER">
             <menus>
@@ -73,7 +72,7 @@
                                                         <Insets />
                                                     </HBox.margin>
                                                 </Button>
-                                                <Button fx:id="okButton" onMouseClicked="#okButtonListener" alignment="CENTER" mnemonicParsing="false" prefHeight="47.0" prefWidth="49.0" style="-fx-background-color: #4b974d#4b974d;" text="OK" textAlignment="CENTER">
+                                                <Button fx:id="okButton" alignment="CENTER" mnemonicParsing="false" prefHeight="47.0" prefWidth="49.0" style="-fx-background-color: #4b974d#4b974d;" text="OK" textAlignment="CENTER">
                                                     <HBox.margin>
                                                         <Insets />
                                                     </HBox.margin>
@@ -97,7 +96,7 @@
                                 </VBox>
                                 <ImageView fx:id="cashImageView" fitHeight="167.0" fitWidth="401.0" pickOnBounds="true" preserveRatio="true">
                                     <image>
-                                        <Image  />
+                                        <Image />
                                     </image>
                                 </ImageView>
                             </children>
